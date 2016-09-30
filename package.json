@@ -1,5 +1,5 @@
 {
-  "name": "jquery.form.state",
+  "name": "jquery-form-state",
   "version": "1.0.0",
   "description": "Save and restore form state after reload",
   "main": "jquery.form.state.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/SmartTeleMax/jquery.form.state.git"
   },
   "keywords": [
-    "jQuery",
+    "jquery-plugin",
     "forms",
     "serialize",
     "deserialize"
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/SmartTeleMax/jquery.form.state/issues"
   },
-  "homepage": "https://github.com/SmartTeleMax/jquery.form.state#readme"
+  "homepage": "https://github.com/SmartTeleMax/jquery.form.state#readme",
+  "dependencies": {
+    "jquery": ">= 1.11.0"
+  }
 }
